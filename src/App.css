@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+/* colors!!! */
+/* bluegreen = #074F57
+darkgrey = 474448
+purple = 56445D
+green = A1C181
+tan = BFC3BA */
+
+*{
+  background-color: #074F57;
+  font-family: 'Raleway', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navRoot {
+  background-color: #BFC3BA;
+  height: 180px;
+  border-bottom: 10px solid #56445d;
+  display: grid;
+  grid-template-columns: 25% 75% a;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navPhoto {
+  grid-column: 0/1;
+  position: absolute;
+  overflow: hidden;
+  margin-top: 80px;
+  margin-left: 40px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-self: center;
+  border-radius: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+#navPhoto {
+  flex-shrink: 0;
+  width: 200px;
+  border: 8px solid #56445d;
+  border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navBody {
+
+  display: flex;
 }
+
+#navName {
+  /* border: 1px solid red; */
+  flex: 1;
+  background-color: #BFC3BA;
+  color: #474448;
+  font-size: 50px;
+}
+
+#name {
+  margin: 14px;
+  background-color: inherit;
+  text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.719);
+}
+#descript {
+  /* border: 1px solid red; */
+  font-size: 25px;
+  margin-top: 75px;
+  margin-left: 260px;
+  background-color: inherit;
+  text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.719);
+
+}
+
+#navSelector {
+  /* border: 1px solid blue; */
+  flex: 1;
+  background-color: #BFC3BA;
+}
+
