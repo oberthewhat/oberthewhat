@@ -43,7 +43,6 @@ tan = BFC3BA */
 }
 
 #navName {
-  /* border: 1px solid red; */
   flex: 1;
   background-color: #BFC3BA;
   color: #474448;
@@ -56,7 +55,6 @@ tan = BFC3BA */
   text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.719);
 }
 #descript {
-  /* border: 1px solid red; */
   font-size: 25px;
   margin-top: 75px;
   margin-left: 260px;
@@ -66,8 +64,26 @@ tan = BFC3BA */
 }
 
 #navSelector {
-  /* border: 1px solid blue; */
   flex: 1;
   background-color: #BFC3BA;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.linkItem {
+  text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.719);
+  height: 40px;
+  color: #474448;
+  text-decoration: none;
+  background-color: #BFC3BA;
+  font-size: 40px;
+  font-style: inherit;
+  margin-top: 25px;
+  opacity: .8;
+}
+
+.linkItem:hover {
+ opacity: 1;
 }
 
