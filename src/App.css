@@ -6,84 +6,119 @@ green = A1C181
 tan = BFC3BA */
 
 *{
-  background-color: #074F57;
+
   font-family: 'Raleway', sans-serif;
 }
 
 .navRoot {
-  background-color: #BFC3BA;
+  /* border: 1px solid red; */
+  background-color: #FCFCFC;
   height: 180px;
-  border-bottom: 10px solid #56445d;
+  border-bottom: 10px solid #312D31;
   display: grid;
   grid-template-columns: 25% 75% a;
 
 }
 
 .navPhoto {
+  /* border: 1px solid red; */
   grid-column: 0/1;
-  position: absolute;
+  position: absolute; 
   overflow: hidden;
-  margin-top: 80px;
+  margin-top: 75px;
   margin-left: 40px;
   display: flex;
-  justify-self: center;
   border-radius: 50%;
 }
 
 #navPhoto {
   flex-shrink: 0;
   width: 200px;
-  border: 8px solid #56445d;
+  border: 10px solid #312D31;
   border-radius: 50%;
 }
 
 .navBody {
-
+  /* border: 2px solid blue; */
   display: flex;
 }
 
-#navName {
-  flex: 1;
+h2 {
+  margin-top: 25px;
+  }
+
+
+.projectRoot{
   background-color: #BFC3BA;
-  color: #474448;
+  /* border: 1px solid red; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FCFCFC;
+  text-shadow:1px 1px 1px rgba(0, 0, 0, 0.815);
+  font-weight: 100;
+}
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid greenyellow; */
+  width: 100%;
+  margin: 15px;
+  height: 100%;
+}
+
+#navName {
+  /* border: 1px solid red; */
+  flex: 1;
+  background-color: #FCFCFC;
+  color: #312D31;
   font-size: 50px;
 }
 
 #name {
+  /* border: 1px solid red; */
   margin: 14px;
   background-color: inherit;
   text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.719);
 }
+
 #descript {
-  font-size: 25px;
-  margin-top: 75px;
+  /* border: 1px solid red; */
+  font-size: 50%;
+  margin-top: 45px;
   margin-left: 260px;
+  color: #312D31;
   background-color: inherit;
   text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.719);
+  position: absolute;
 
 }
-
-#navSelector {
-  flex: 1;
-  background-color: #BFC3BA;
+.cardRoot {
+  margin: 20px;
+  max-width: 780px;
+  height: 400px;
   display: flex;
-  list-style: none;
-  justify-content: space-around;
+}
+.cardMedia {
+  height: 400px;
+  min-width: 200px;
 }
 
-.linkItem {
-  text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.719);
-  height: 40px;
-  color: #474448;
-  text-decoration: none;
-  background-color: #BFC3BA;
-  font-size: 40px;
-  font-style: inherit;
-  margin-top: 25px;
-  opacity: .8;
+@media (max-width: 625px) {
+#name {
+  font-size: smaller;
+}
+#descript {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 240px;
 }
 
-.linkItem:hover {
- opacity: 1;
+h2{
+  margin-top: 100px;
 }
 
+}
