@@ -62,17 +62,17 @@ function App() {
           </Card>
           <Card className='cardRoot'>
             <CardActionArea>
-              <a href='https://www.restaurantlistr.com'>
+              <a href='https://oberthewhat.github.io/ACA_web101_John_obertubbesing/src/pineshockey/index.html'>
               <CardMedia
                 className='cardMedia'
-                image="https://i.imgur.com/GeDZS6u.png"
+                image="https://i.imgur.com/yz9TjJ3.png"
                 title="Contemplative Reptile"
               /></a>
 
             </CardActionArea>
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                Listr
+                Pinus Hockey
           </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
                   This Page was made as my capstone project for school. This was a full stack program made with react, nodeJS, mySQL, Express, and lots of custom CSS, along with some use of material UI</Typography>
