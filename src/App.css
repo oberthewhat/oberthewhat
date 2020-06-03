@@ -126,7 +126,7 @@ h2 {
 }
 .cardMedia {
   height: 400px;
-  min-width: 200px;
+  min-width: 300px;
 }
 
 @media (max-width: 625px) {
@@ -145,5 +145,8 @@ h2{
 .linkbox {
   margin-top: 95px;
   width: 100%;
+}
+.cardMedia {
+  min-width: 140px;
 }
 }

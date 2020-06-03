@@ -86,6 +86,25 @@ function App() {
                 <ReactTooltip />
             </CardContent>
           </Card>
+          <Card className='cardRoot'>
+            <CardActionArea>
+              <a href='https://oberthewhat.github.io/ACA_web101_John_obertubbesing/src/online-resume/resume.html'>
+                <CardMedia
+                  className='cardMedia'
+                  image="https://i.imgur.com/moZfQJK.png"
+                  title="Contemplative Reptile"
+                /></a>
+
+            </CardActionArea>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                John Obertubbesing Resume
+          </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                This was an early project of mine building an online resume for myself. I have kept it updated as best I can and is a good source for information on me. I used CSS gride and flex as well as other custom styling. </Typography>
+                <ReactTooltip />
+            </CardContent>
+          </Card>
         </div>
       </div>
     </div>
