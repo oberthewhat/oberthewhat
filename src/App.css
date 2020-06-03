@@ -150,3 +150,17 @@ h2{
   min-width: 140px;
 }
 }
+
+@media (max-width: 420px) {
+
+  #descript {
+    display: none;
+  }
+
+  #name {
+    font-size: 35px;
+  }
+  .navPhoto{
+    margin-left: 21%;
+  }
+}
