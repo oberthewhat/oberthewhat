@@ -41,6 +41,9 @@ function App() {
           <a href="mailto:oberthewhat@gmail.com" data-tip='Email'>
           <i class="fa fa-envelope-square" aria-hidden="true"></i>
           </a>
+          <a href="https://docs.google.com/document/d/1wiEzRXl8pWGTAZ7GbMo8QCr6RjuDyFZF36vgdBx4zf0/edit?usp=sharing" data-tip='Resume'>
+          <i class="fa fa-file-text" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
       <div className='projectRoot'>
@@ -90,3 +93,8 @@ function App() {
 }
 
 export default App;
+
+
+
+// link to online resume 
+// https://oberthewhat.github.io/ACA_web101_John_obertubbesing/src/online-resume/resume.html
