@@ -23,6 +23,12 @@ function App() {
           </div>
         </div>
       </div>
+      <div className='mobileDescript'>
+        <h3>
+        Junior Web Developer<br />
+        Javascript - React - NodeJS - Express</h3>
+      
+      </div>
       <div className='linkBoxRoot'>
         <div className="linkbox">
           <a href="https://www.linkedin.com/in/john-obertubbesing-775b33185/" data-tip='LinkedIn' >

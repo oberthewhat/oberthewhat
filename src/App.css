@@ -157,11 +157,28 @@ h2{
   #descript {
     display: none;
   }
-
+  .linkbox {
+    margin-top: 5px;
+  }
   #name {
     font-size: 35px;
   }
   .navPhoto{
     margin-left: 21%;
   }
+  .mobileDescript {
+    height: 180px;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #22333b;
+    color: #FCFCFC;
+  }
+  h3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
 }
