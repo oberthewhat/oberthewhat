@@ -9,17 +9,39 @@ tan = BFC3BA */
 
   font-family: 'Raleway', sans-serif;
 }
-
 .navRoot {
   /* border: 1px solid red; */
-  background-color: #FCFCFC;
+  background-color: #eae0d5;
   height: 180px;
-  border-bottom: 10px solid #312D31;
+  border-bottom: 10px solid #0a0908;
   display: grid;
   grid-template-columns: 25% 75% a;
 
 }
+.linkBoxRoot{
+  background-color: #22333b;
+  display: flex;
+  justify-content: center;
+}
+.linkbox{
+  width: 40%;
+  background-color: #22333b;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #eae0d5;
+}
 
+.linkbox a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 50px;
+  opacity: .8;
+}
+.linkbox a:hover {
+ opacity: 1;
+}
 .navPhoto {
   /* border: 1px solid red; */
   grid-column: 0/1;
@@ -34,7 +56,7 @@ tan = BFC3BA */
 #navPhoto {
   flex-shrink: 0;
   width: 200px;
-  border: 10px solid #312D31;
+  border: 10px solid #5e503f;
   border-radius: 50%;
 }
 
@@ -49,7 +71,7 @@ h2 {
 
 
 .projectRoot{
-  background-color: #BFC3BA;
+  background-color: #22333b;
   /* border: 1px solid red; */
   height: 100%;
   display: flex;
@@ -73,7 +95,7 @@ h2 {
 #navName {
   /* border: 1px solid red; */
   flex: 1;
-  background-color: #FCFCFC;
+  background-color: #eae0d5;
   color: #312D31;
   font-size: 50px;
 }
@@ -118,7 +140,10 @@ h2 {
 }
 
 h2{
-  margin-top: 100px;
+  margin-top: 40px;
 }
-
+.linkbox {
+  margin-top: 95px;
+  width: 100%;
+}
 }
