@@ -100,7 +100,9 @@ h2 {
   color: #312D31;
   font-size: 50px;
 }
-
+.mobileDescript {
+  display: none;
+}
 #name {
   /* border: 1px solid red; */
   margin: 14px;
