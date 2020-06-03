@@ -55,7 +55,8 @@ tan = BFC3BA */
 
 #navPhoto {
   flex-shrink: 0;
-  width: 200px;
+  max-width: 200px;
+  max-height: 200px;
   border: 10px solid #0a0908;
   border-radius: 50%;
 }
