@@ -47,7 +47,7 @@ function App() {
           <a href="mailto:oberthewhat@gmail.com" data-tip='Email'>
           <i class="fa fa-envelope-square" aria-hidden="true"></i>
           </a>
-          <a href="https://docs.google.com/document/d/1wiEzRXl8pWGTAZ7GbMo8QCr6RjuDyFZF36vgdBx4zf0/edit?usp=sharing" data-tip='Resume'>
+          <a href="https://docs.google.com/document/d/17lqWWJg9yZB6JSeOOn7DJRm4Hnu-q2Lnbqnmi9OEsEQ/edit?usp=sharing" data-tip='Resume'>
           <i class="fa fa-file-text" aria-hidden="true"></i>
           </a>
         </div>
